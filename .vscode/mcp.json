@@ -3,9 +3,9 @@
     "servers": {
       "supabase": {
         "type": "http",
-        "url": "https://mcp.supabase.com/mcp?project_ref=ewrtcqfbakiqucnudclz",
+        "url": "https://mcp.supabase.com/mcp?project_ref=${SUPABASE_PROJECT_REF}",
         "headers": {
-          "Authorization": "Bearer sbp_144e7c60bec26391993cc92fef68dd097fc58fb2"
+          "Authorization": "Bearer ${SUPABASE_ACCESS_TOKEN}"
         }
       }
     }
